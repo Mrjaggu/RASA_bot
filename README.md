@@ -1,2 +1,3 @@
 # RASA_bot
-This repo contains Rasa AI bot example.
+This repo contains Rasa AI bot example. 
+Updating soon.
