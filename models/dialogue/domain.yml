@@ -1,0 +1,238 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_think
+- utter_more
+- utter_salary
+- utter_stupid_question
+- utter_helpful
+- utter_interview_success
+- utter_holidays
+- utter_gratitude
+- utter_did_that_help
+- utter_job_match
+- utter_user_ideal
+- utter_hate
+- utter_ask_again
+- utter_goodbye
+- utter_unclear
+- utter_interview_date
+- action_job_description_applied
+- action_instruction
+- action_motto
+- action_incharge
+- action_popular
+- action_lmn
+- action_timing
+- action_vacancy
+- action_apti_answer
+- action_interview_history
+- action_interview_time
+- action_achievement
+- action_compare
+- action_document
+- action_interview_round
+- action_address
+- action_application
+- action_openning
+- action_eligibility_criteria
+- action_criteria
+actions:
+- utter_greet
+- utter_think
+- utter_more
+- utter_salary
+- utter_stupid_question
+- utter_helpful
+- utter_interview_success
+- utter_holidays
+- utter_gratitude
+- utter_did_that_help
+- utter_job_match
+- utter_user_ideal
+- utter_hate
+- utter_ask_again
+- utter_goodbye
+- utter_unclear
+- utter_interview_date
+- __main__.ActionJobAppliedHist
+- __main__.ActionInstruction
+- __main__.ActionMotto
+- __main__.ActionIncharge
+- __main__.ActionPopular
+- __main__.ActionLMN
+- __main__.Actiontiming
+- __main__.ActionVacancy
+- __main__.ActionAnswer
+- __main__.ActionInterviewHistory
+- __main__.ActionInterviewTime
+- __main__.ActionAchievement
+- __main__.ActionComapre
+- __main__.ActionDocument
+- __main__.ActionInterviewRound
+- __main__.ActionAddress
+- __main__.ActionApplication
+- __main__.ActionOpenning
+- __main__.ActionEligibility
+- __main__.ActionCriteria
+config:
+  store_entities_as_slots: true
+entities:
+- ANS
+- ELIGIBILITY
+- HOLIDAY
+- STEPS
+- DOCUMENT
+- HISTORY
+- CRITERIA
+- OPENNING
+- ACHIEVEMENT
+- APPLICATION
+- COMPARE
+- COUNT
+- ADDRESS
+- SCHEDULE
+- DATE
+- COMPANY
+- TIME
+- MOTTO
+intents:
+- greet
+- think
+- skills_job
+- application_status
+- salary
+- interview_date
+- eligibility_criteria
+- job_profile
+- company_address
+- interview_round
+- interview_document
+- company_better
+- company_achievement
+- stupid
+- interview_time
+- interview_history
+- interview_success
+- company_vacancies
+- LMN
+- holidays
+- company_apti_ans
+- company_job_time
+- job_match
+- popular_company
+- helpful
+- charge
+- company_motto
+- company_instructions
+- job_description_applied
+- user_ideal
+- hate
+- thanks
+- affirm
+- deny
+- goodbye
+- inform
+slots:
+  ACHIEVEMENT:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  ADDRESS:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  ANS:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  APPLICATION:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  COMPANY:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  COMPARE:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  COUNT:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  CRITERIA:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  DATE:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  DOCUMENT:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  ELIGIBILITY:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  HISTORY:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  HOLIDAY:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  MOTTO:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  MOVIE:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  OPENNING:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  SCHEDULE:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  STEPS:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  TIME:
+    initial_value: null
+    max_value: 1.0
+    min_value: 0.0
+    type: rasa_core.slots.FloatSlot
+  VALUE:
+    initial_value: null
+    max_value: 1.0
+    min_value: 0.0
+    type: rasa_core.slots.FloatSlot
+templates:
+  utter_ask_again:
+  - text: Okay! Let's start again, please tell me what do you need?
+  - text: No issues! Let's try this again. Please repeat your query?
+  utter_did_that_help:
+  - text: Did that help you?
+  - text: I hope that solved your query
+  utter_goodbye:
+  - text: Bye
+  utter_gratitude:
+  - text: Glad that I could be of help to you!
+  utter_greet:
+  - text: Hey! How can I help you?
+  utter_hate:
+  - text: it's ok I dont though
+  utter_helpful:
+  - text: I care for you
+  utter_holidays:
+  - text: '* display yearly calendar *'
+  utter_interview_date:
+  - text: As soon as possible
+  utter_interview_success:
+  - text: Be yourself,calm and smart.
+  utter_job_match:
+  - text: checks the skills and if they match 50% , u can try for interest
+  utter_more:
+  - text: Anything more you want to know?
+  utter_salary:
+  - text: Salary may vary from xx to yy
+  utter_stupid_question:
+  - text: friend is still a friend
+  utter_think:
+  - text: ' Hopefully, All the best'
+  utter_unclear:
+  - text: I am not sure what you are aiming for.
+  utter_user_ideal:
+  - text: ' can''t define but with more skills and talent u will achieve sooner'
+topics: []

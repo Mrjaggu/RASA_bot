@@ -1,0 +1,294 @@
+%YAML 1.1
+---
+actions:
+- action_achievement
+- action_address
+- action_application
+- action_apti_answer
+- action_compare
+- action_criteria
+- action_document
+- action_eligibility_criteria
+- action_incharge
+- action_instruction
+- action_interview_history
+- action_interview_round
+- action_interview_time
+- action_job_description_applied
+- action_lmn
+- action_motto
+- action_openning
+- action_popular
+- action_restart
+- action_timing
+- action_vacancy
+- utter_ask_again
+- utter_did_that_help
+- utter_goodbye
+- utter_gratitude
+- utter_greet
+- utter_hate
+- utter_helpful
+- utter_holidays
+- utter_interview_date
+- utter_interview_success
+- utter_job_match
+- utter_more
+- utter_salary
+- utter_stupid_question
+- utter_think
+- utter_unclear
+- utter_user_ideal
+config:
+  store_entities_as_slots: true
+entities:
+- ACHIEVEMENT
+- ADDRESS
+- ANS
+- APPLICATION
+- COMPANY
+- COMPARE
+- COUNT
+- CRITERIA
+- DATE
+- DOCUMENT
+- ELIGIBILITY
+- HISTORY
+- HOLIDAY
+- MOTTO
+- OPENNING
+- SCHEDULE
+- STEPS
+- TIME
+forms: []
+intents:
+- greet:
+    ignore_entities: []
+    use_entities: true
+- think:
+    ignore_entities: []
+    use_entities: true
+- skills_job:
+    ignore_entities: []
+    use_entities: true
+- application_status:
+    ignore_entities: []
+    use_entities: true
+- salary:
+    ignore_entities: []
+    use_entities: true
+- interview_date:
+    ignore_entities: []
+    use_entities: true
+- eligibility_criteria:
+    ignore_entities: []
+    use_entities: true
+- job_profile:
+    ignore_entities: []
+    use_entities: true
+- company_address:
+    ignore_entities: []
+    use_entities: true
+- interview_round:
+    ignore_entities: []
+    use_entities: true
+- interview_document:
+    ignore_entities: []
+    use_entities: true
+- company_better:
+    ignore_entities: []
+    use_entities: true
+- company_achievement:
+    ignore_entities: []
+    use_entities: true
+- stupid:
+    ignore_entities: []
+    use_entities: true
+- interview_time:
+    ignore_entities: []
+    use_entities: true
+- interview_history:
+    ignore_entities: []
+    use_entities: true
+- interview_success:
+    ignore_entities: []
+    use_entities: true
+- company_vacancies:
+    ignore_entities: []
+    use_entities: true
+- LMN:
+    ignore_entities: []
+    use_entities: true
+- holidays:
+    ignore_entities: []
+    use_entities: true
+- company_apti_ans:
+    ignore_entities: []
+    use_entities: true
+- company_job_time:
+    ignore_entities: []
+    use_entities: true
+- job_match:
+    ignore_entities: []
+    use_entities: true
+- popular_company:
+    ignore_entities: []
+    use_entities: true
+- helpful:
+    ignore_entities: []
+    use_entities: true
+- charge:
+    ignore_entities: []
+    use_entities: true
+- company_motto:
+    ignore_entities: []
+    use_entities: true
+- company_instructions:
+    ignore_entities: []
+    use_entities: true
+- job_description_applied:
+    ignore_entities: []
+    use_entities: true
+- user_ideal:
+    ignore_entities: []
+    use_entities: true
+- hate:
+    ignore_entities: []
+    use_entities: true
+- thanks:
+    ignore_entities: []
+    use_entities: true
+- affirm:
+    ignore_entities: []
+    use_entities: true
+- deny:
+    ignore_entities: []
+    use_entities: true
+- goodbye:
+    ignore_entities: []
+    use_entities: true
+- inform:
+    ignore_entities: []
+    use_entities: true
+slots:
+  ACHIEVEMENT:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  ADDRESS:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  ANS:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  APPLICATION:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  COMPANY:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  COMPARE:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  COUNT:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  CRITERIA:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  DATE:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  DOCUMENT:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  ELIGIBILITY:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  HISTORY:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  HOLIDAY:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  MOTTO:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  MOVIE:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  OPENNING:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  SCHEDULE:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  STEPS:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  TIME:
+    auto_fill: true
+    initial_value: null
+    max_value: 1.0
+    min_value: 0.0
+    type: rasa.core.slots.FloatSlot
+  VALUE:
+    auto_fill: true
+    initial_value: null
+    max_value: 1.0
+    min_value: 0.0
+    type: rasa.core.slots.FloatSlot
+templates:
+  utter_ask_again:
+  - text: Okay! Let's start again, please tell me what do you need?
+  - text: No issues! Let's try this again. Please repeat your query?
+  utter_did_that_help:
+  - text: Did that help you?
+  - text: I hope that solved your query
+  utter_goodbye:
+  - text: Bye
+  utter_gratitude:
+  - text: Glad that I could be of help to you!
+  utter_greet:
+  - text: Hey! How can I help you?
+  utter_hate:
+  - text: it's ok I dont though
+  utter_helpful:
+  - text: I care for you
+  utter_holidays:
+  - text: '* display yearly calendar *'
+  utter_interview_date:
+  - text: As soon as possible
+  utter_interview_success:
+  - text: Be yourself,calm and smart.
+  utter_job_match:
+  - text: checks the skills and if they match 50% , u can try for interest
+  utter_more:
+  - text: Anything more you want to know?
+  utter_salary:
+  - text: Salary may vary from xx to yy
+  utter_stupid_question:
+  - text: friend is still a friend
+  utter_think:
+  - text: ' Hopefully, All the best'
+  utter_unclear:
+  - text: I am not sure what you are aiming for.
+  utter_user_ideal:
+  - text: " can't define but with more skills and talent u will achieve sooner"

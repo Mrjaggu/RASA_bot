@@ -1,0 +1,4185 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello There"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "think",
+        "text": "Do u think I can get a job"
+      },
+      {
+        "intent": "think",
+        "text": "do you think i can get a job"
+      },
+      {
+        "intent": "think",
+        "text": "you think i will get job"
+      },
+      {
+        "intent": "think",
+        "text": "job will i get you think"
+      },
+      {
+        "intent": "think",
+        "text": "do you know that i will get a job"
+      },
+      {
+        "intent": "think",
+        "text": "did you know i will get a job"
+      },
+      {
+        "intent": "think",
+        "text": "did you think that i will get a job"
+      },
+      {
+        "intent": "skills_job",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "criteria",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 21,
+            "end": 27,
+            "value": "skills",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What is the criteria skills required for Google"
+      },
+      {
+        "intent": "skills_job",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "criteria",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 34,
+            "end": 43,
+            "value": "Microsoft",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What is the criteria required for Microsoft"
+      },
+      {
+        "intent": "skills_job",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "know",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Amazon",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What do I need to know for a job in Amazon"
+      },
+      {
+        "intent": "skills_job",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "possibility",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 46,
+            "end": 54,
+            "value": "Flipkart",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what are the possibility of my getting job in Flipkart"
+      },
+      {
+        "intent": "skills_job",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "skills",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 45,
+            "end": 54,
+            "value": "Microsoft",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What are the skills required to get a job in Microsoft"
+      },
+      {
+        "intent": "skills_job",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "skills",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 45,
+            "end": 51,
+            "value": "Godrej",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what are the skills required to get a job in Godrej"
+      },
+      {
+        "intent": "skills_job",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "criteria",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "Agnext",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What is the criteria required for Agnext"
+      },
+      {
+        "intent": "skills_job",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "know",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 36,
+            "end": 46,
+            "value": "Data Vedik",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What do I need to know for a job in Data Vedik"
+      },
+      {
+        "intent": "skills_job",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "possibility",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "value": "Bomotix",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what are the possibility of my getting job at Bomotix"
+      },
+      {
+        "intent": "skills_job",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "skills",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 27,
+            "end": 38,
+            "value": "Analysed.in",
+            "entity": "CRITERIA"
+          }
+        ],
+        "text": "skills required for job in Analysed.in company"
+      },
+      {
+        "intent": "skills_job",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "criteria",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Google",
+            "entity": "CRITERIA"
+          }
+        ],
+        "text": "criteria required in Google company"
+      },
+      {
+        "intent": "skills_job",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "know",
+            "entity": "CRITERIA"
+          },
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Embibe",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What do I need to know for a job in Embibe"
+      },
+      {
+        "intent": "application_status",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "application",
+            "entity": "APPLICATION"
+          }
+        ],
+        "text": "what is application status"
+      },
+      {
+        "intent": "application_status",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "application",
+            "entity": "APPLICATION"
+          }
+        ],
+        "text": "did they review my application"
+      },
+      {
+        "intent": "application_status",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "application",
+            "entity": "APPLICATION"
+          }
+        ],
+        "text": "did they review application"
+      },
+      {
+        "intent": "application_status",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "application",
+            "entity": "APPLICATION"
+          }
+        ],
+        "text": "What is my application status"
+      },
+      {
+        "intent": "application_status",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "application",
+            "entity": "APPLICATION"
+          }
+        ],
+        "text": "Did they review my application"
+      },
+      {
+        "intent": "application_status",
+        "entities": [
+          {
+            "start": 32,
+            "end": 43,
+            "value": "application",
+            "entity": "APPLICATION"
+          }
+        ],
+        "text": "When will get the call for mine application"
+      },
+      {
+        "intent": "application_status",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "application",
+            "entity": "APPLICATION"
+          }
+        ],
+        "text": "what is my application status"
+      },
+      {
+        "intent": "application_status",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "application",
+            "entity": "APPLICATION"
+          }
+        ],
+        "text": "what is application status"
+      },
+      {
+        "intent": "application_status",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "application",
+            "entity": "APPLICATION"
+          }
+        ],
+        "text": "did they review my application"
+      },
+      {
+        "intent": "application_status",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "application",
+            "entity": "APPLICATION"
+          }
+        ],
+        "text": "did they review application"
+      },
+      {
+        "intent": "application_status",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "application",
+            "entity": "APPLICATION"
+          }
+        ],
+        "text": "when will i get the call FOR application"
+      },
+      {
+        "intent": "salary",
+        "text": "how much i can expect annually"
+      },
+      {
+        "intent": "salary",
+        "text": "how much can i get annually paid"
+      },
+      {
+        "intent": "salary",
+        "text": "annual salary"
+      },
+      {
+        "intent": "salary",
+        "text": "annual package"
+      },
+      {
+        "intent": "salary",
+        "text": "annual salary for the job"
+      },
+      {
+        "intent": "salary",
+        "text": "What's the salary paid"
+      },
+      {
+        "intent": "salary",
+        "text": "How much can I earn from this job"
+      },
+      {
+        "intent": "salary",
+        "text": "What will be the annual payment"
+      },
+      {
+        "intent": "salary",
+        "text": "what is the salary paid"
+      },
+      {
+        "intent": "salary",
+        "text": "how much can i earn from this job"
+      },
+      {
+        "intent": "salary",
+        "text": "what will be the annual payment"
+      },
+      {
+        "intent": "salary",
+        "text": "what will be the annual salary"
+      },
+      {
+        "intent": "salary",
+        "text": "what will be the annual package"
+      },
+      {
+        "intent": "salary",
+        "text": "how much i can expect annually"
+      },
+      {
+        "intent": "salary",
+        "text": "how much can i get annually paid"
+      },
+      {
+        "intent": "salary",
+        "text": "annual salary"
+      },
+      {
+        "intent": "salary",
+        "text": "annual package"
+      },
+      {
+        "intent": "salary",
+        "text": "annual salary for the job"
+      },
+      {
+        "intent": "salary",
+        "text": "annual package for this job"
+      },
+      {
+        "intent": "interview_date",
+        "text": "call for interview"
+      },
+      {
+        "intent": "interview_date",
+        "text": "interview call"
+      },
+      {
+        "intent": "interview_date",
+        "text": "call interview"
+      },
+      {
+        "intent": "interview_date",
+        "text": "When will I get the call for an interview"
+      },
+      {
+        "intent": "interview_date",
+        "text": "when will i get the call for interview"
+      },
+      {
+        "intent": "interview_date",
+        "text": "when can i expect call for interview"
+      },
+      {
+        "intent": "interview_date",
+        "text": "call for interview"
+      },
+      {
+        "intent": "interview_date",
+        "text": "interview call"
+      },
+      {
+        "intent": "interview_date",
+        "text": "call interview"
+      },
+      {
+        "intent": "eligibility_criteria",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "qualification",
+            "entity": "ELIGIBILITY"
+          },
+          {
+            "start": 45,
+            "end": 51,
+            "value": "Embibe",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what should be mine qualification for job in Embibe"
+      },
+      {
+        "intent": "eligibility_criteria",
+        "entities": [
+          {
+            "start": 18,
+            "end": 31,
+            "value": "qualification",
+            "entity": "ELIGIBILITY"
+          },
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what should be my qualification for Google job"
+      },
+      {
+        "intent": "eligibility_criteria",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "eligibility",
+            "entity": "ELIGIBILITY"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "Haptik",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What are the eligibility criteria in Haptik"
+      },
+      {
+        "intent": "eligibility_criteria",
+        "entities": [
+          {
+            "start": 18,
+            "end": 31,
+            "value": "qualification",
+            "entity": "ELIGIBILITY"
+          },
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Godrej",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What should be my qualification for Godrej job"
+      },
+      {
+        "intent": "eligibility_criteria",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "eligibility",
+            "entity": "ELIGIBILITY"
+          },
+          {
+            "start": 36,
+            "end": 47,
+            "value": "Analysed.in",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is the eligibility criteria in Analysed.in"
+      },
+      {
+        "intent": "eligibility_criteria",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "qualification",
+            "entity": "ELIGIBILITY"
+          },
+          {
+            "start": 45,
+            "end": 51,
+            "value": "Amazon",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what should be mine qualification for job IN Amazon"
+      },
+      {
+        "intent": "eligibility_criteria",
+        "entities": [
+          {
+            "start": 18,
+            "end": 31,
+            "value": "qualification",
+            "entity": "ELIGIBILITY"
+          },
+          {
+            "start": 36,
+            "end": 45,
+            "value": "Microsoft",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what should be my qualification for Microsoft job"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "matching",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "matching job profile"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "job",
+            "entity": "OPENNING"
+          },
+          {
+            "start": 4,
+            "end": 12,
+            "value": "matching",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "job matching profile"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "vacancies",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "what are the vacancies available"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "vacancy",
+            "entity": "OPENNING"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "job",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "vacancy for job"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "vacancy",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "job vacancy"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "vacancy",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "job vacancy suits my profile"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "job",
+            "entity": "OPENNING"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "suits",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "What kind job suits my profile"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "jobs",
+            "entity": "OPENNING"
+          },
+          {
+            "start": 18,
+            "end": 26,
+            "value": "matching",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "Is there any jobs matching my profile"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "vacancies",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "What are the vacancies available"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "jobs",
+            "entity": "OPENNING"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "suit",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "what kind of jobs suit mine profile"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "jobs",
+            "entity": "OPENNING"
+          },
+          {
+            "start": 5,
+            "end": 9,
+            "value": "suit",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "jobs suit my profile"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "job",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "job FOR  my profile"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "jobs",
+            "entity": "OPENNING"
+          },
+          {
+            "start": 18,
+            "end": 26,
+            "value": "matching",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "is there any jobs matching mine profile"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "job",
+            "entity": "OPENNING"
+          },
+          {
+            "start": 4,
+            "end": 9,
+            "value": "match",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "job match my profile"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "matching",
+            "entity": "OPENNING"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "job",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "matching job profile"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "job",
+            "entity": "OPENNING"
+          },
+          {
+            "start": 4,
+            "end": 12,
+            "value": "matching",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "job matching profile"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "vacancies",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "what are the vacancies available"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "vacancy",
+            "entity": "OPENNING"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "job",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "vacancy for job"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "vacancy",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "job vacancy"
+      },
+      {
+        "intent": "job_profile",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "vacancy",
+            "entity": "OPENNING"
+          },
+          {
+            "start": 12,
+            "end": 17,
+            "value": "suits",
+            "entity": "OPENNING"
+          }
+        ],
+        "text": "job vacancy suits my profile"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "reach",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how can i reach Google"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "location",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 12,
+            "end": 21,
+            "value": "Microsoft",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "location of Microsoft company"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "location",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "Amazon",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is the location of Amazon company"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "location",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 20,
+            "end": 31,
+            "value": "Analysed.in",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is location of Analysed.in"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "address",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "Haptik",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "Can I know the address of Haptik"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "reach",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 16,
+            "end": 32,
+            "value": "Yellow Messenger",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "How can I reach Yellow Messenger"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "location",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Flipkart",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What's the location of Flipkart"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "address",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 26,
+            "end": 33,
+            "value": "YouTube",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "can i know the address of YouTube"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "address",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "LinkedIn",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "can i get the address of LinkedIn"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "address",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "Indeed",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "can you provide me the address of Indeed company"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "reach",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Arya.ai",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how can i reach Arya.ai"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "location",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 12,
+            "end": 20,
+            "value": "Leena.ai",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "location of Leena.ai company"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "location",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Delhivery",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is the location of Delhivery company"
+      },
+      {
+        "intent": "company_address",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "location",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "Snapdeal",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is location of Snapdeal"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "have to know",
+            "entity": "STEPS"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what i have to know for Google interview"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "prepare",
+            "entity": "STEPS"
+          },
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Microsoft",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how should i prepare for Microsoft interview"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "study",
+            "entity": "STEPS"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Amazon",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how should i study for Amazon interview company"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "study",
+            "entity": "STEPS"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "amazon",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "How should i study for amazon interview company"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "prepare",
+            "entity": "STEPS"
+          },
+          {
+            "start": 38,
+            "end": 49,
+            "value": "Analysed.in",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "How should I prepare for interview at Analysed.in"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": "COUNT"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "rounds",
+            "entity": "STEPS"
+          },
+          {
+            "start": 61,
+            "end": 67,
+            "value": "Haptik",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how many rounds of interview am i supposed to go through for Haptik company"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": "COUNT"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "rounds",
+            "entity": "STEPS"
+          },
+          {
+            "start": 35,
+            "end": 51,
+            "value": "Yellow Messenger",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how many rounds i would expect for Yellow Messenger company"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": "COUNT"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "rounds",
+            "entity": "STEPS"
+          },
+          {
+            "start": 62,
+            "end": 70,
+            "value": "Flipkart",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "How many rounds of interviews am I supposed to go through for Flipkart"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 5,
+            "end": 18,
+            "value": "should I know",
+            "entity": "STEPS"
+          },
+          {
+            "start": 36,
+            "end": 43,
+            "value": "YouTube",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What should I know for interview at YouTube"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "prepare",
+            "entity": "STEPS"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "LinkedIn",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how should i prepare for LinkedIn interview"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "prepare",
+            "entity": "STEPS"
+          },
+          {
+            "start": 38,
+            "end": 44,
+            "value": "Indeed",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "How should I prepare for interview at Indeed"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": "COUNT"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "rounds",
+            "entity": "STEPS"
+          },
+          {
+            "start": 61,
+            "end": 69,
+            "value": "Hrist.in",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how many rounds of interview am i supposed to go through for Hrist.in company"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": "COUNT"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "rounds",
+            "entity": "STEPS"
+          },
+          {
+            "start": 35,
+            "end": 42,
+            "value": "Arya.ai",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how many rounds i would expect for Arya.ai company"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 5,
+            "end": 18,
+            "value": "should i know",
+            "entity": "STEPS"
+          },
+          {
+            "start": 36,
+            "end": 44,
+            "value": "Leena.ai",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what should i know for interview at Leena.ai"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "have to know",
+            "entity": "STEPS"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Delhivery",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what i have to know for Delhivery company interview"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "have to know",
+            "entity": "STEPS"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "Snapdeal",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what i have to know for Snapdeal interview"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "prepare",
+            "entity": "STEPS"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "Myntra",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how should i prepare for Myntra interview"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "study",
+            "entity": "STEPS"
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Bewkoof",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how should i study for Bewkoof interview company"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "study",
+            "entity": "STEPS"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Mercedes",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "How should i study for Mercedes interview company"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "prepare",
+            "entity": "STEPS"
+          },
+          {
+            "start": 38,
+            "end": 44,
+            "value": "Godreg",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "How should I prepare for interview at Godreg"
+      },
+      {
+        "intent": "interview_round",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": "COUNT"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "rounds",
+            "entity": "STEPS"
+          },
+          {
+            "start": 61,
+            "end": 67,
+            "value": "Ferari",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how many rounds of interview am i supposed to go through for Ferari company"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "documents",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "What are the documents I need to carry for interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "documents",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "What are the required documents for an interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "photo",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "copy",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "resume",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "photo copy and resume"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "document",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "document required for interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "documents",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "documents need to carry for interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "resume",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "resume required for an interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "documents",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "What are the documents I need to carry for interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "documents",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "What are the required documents for an interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "photo",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 33,
+            "end": 37,
+            "value": "copy",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "resume",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "do i need to carry photo and any copy of my resume"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "photo",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "resume",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "copy",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "carry photo and resume copy"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "photo",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 33,
+            "end": 37,
+            "value": "copy",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "resume",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "Do I need to carry photo and any copy of my resume"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "documents",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "what are the documents i need to carry for interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "documents",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "what are the required documents for an interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "photo",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 33,
+            "end": 37,
+            "value": "copy",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "resume",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "do i need to carry photo and any copy of my resume"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "photo",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "resume",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "copy",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "carry photo and resume copy"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "photo",
+            "entity": "DOCUMENT"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "resume",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "photo copy and resume"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "documents",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "documents required for interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "documents",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "documents need to carry for interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "resume",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "resume required for an interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "documents",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "What are the documents I need to carry for interview"
+      },
+      {
+        "intent": "interview_document",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "documents",
+            "entity": "DOCUMENT"
+          }
+        ],
+        "text": "What are the required documents for an interview"
+      },
+      {
+        "intent": "company_better",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "better",
+            "entity": "COMPARE"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "Godreg",
+            "entity": "COMPANY"
+          },
+          {
+            "start": 38,
+            "end": 44,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "which is better the company Godreg or Google"
+      },
+      {
+        "intent": "company_better",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "better",
+            "entity": "COMPARE"
+          },
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Amazon",
+            "entity": "COMPANY"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "better company is Amazon or Google"
+      },
+      {
+        "intent": "company_better",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Amazon",
+            "entity": "COMPANY"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "better",
+            "entity": "COMPARE"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "Flipkart",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "Amazon is better company then Flipkart"
+      },
+      {
+        "intent": "company_better",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "better",
+            "entity": "COMPARE"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "YouTube",
+            "entity": "COMPANY"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "LinkedIn",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "Which company is better YouTube or LinkedIn"
+      },
+      {
+        "intent": "company_better",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "better",
+            "entity": "COMPARE"
+          },
+          {
+            "start": 15,
+            "end": 22,
+            "value": "Arya.ai",
+            "entity": "COMPANY"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "value": "Snapdeal",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "better company Arya.ai or Snapdeal"
+      },
+      {
+        "intent": "company_better",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "better",
+            "entity": "COMPARE"
+          },
+          {
+            "start": 28,
+            "end": 36,
+            "value": "Leena.ai",
+            "entity": "COMPANY"
+          },
+          {
+            "start": 40,
+            "end": 46,
+            "value": "Haptik",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "which is better the company Leena.ai or Haptik"
+      },
+      {
+        "intent": "company_better",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "better",
+            "entity": "COMPARE"
+          },
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Embibe",
+            "entity": "COMPANY"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "Ferari",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "better company is Embibe or Ferari"
+      },
+      {
+        "intent": "company_better",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Analysed",
+            "entity": "COMPANY"
+          },
+          {
+            "start": 12,
+            "end": 18,
+            "value": "better",
+            "entity": "COMPARE"
+          },
+          {
+            "start": 32,
+            "end": 40,
+            "value": "Delloite",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "Analysed is better company then Delloite"
+      },
+      {
+        "intent": "company_achievement",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Google",
+            "entity": "COMPANY"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "achievement",
+            "entity": "ACHIEVEMENT"
+          }
+        ],
+        "text": "Google company achievement"
+      },
+      {
+        "intent": "company_achievement",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "achievement",
+            "entity": "ACHIEVEMENT"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is achievement of Google company"
+      },
+      {
+        "intent": "company_achievement",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "achievement",
+            "entity": "ACHIEVEMENT"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "achievement of Google company"
+      },
+      {
+        "intent": "company_achievement",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "achievement",
+            "entity": "ACHIEVEMENT"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What is the achievement of Google"
+      },
+      {
+        "intent": "company_achievement",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "achievement",
+            "entity": "ACHIEVEMENT"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "achievement of Google company"
+      },
+      {
+        "intent": "company_achievement",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Google",
+            "entity": "COMPANY"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "achievement",
+            "entity": "ACHIEVEMENT"
+          }
+        ],
+        "text": "Google company achievement"
+      },
+      {
+        "intent": "company_achievement",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "achievement",
+            "entity": "ACHIEVEMENT"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is achievement of Google company"
+      },
+      {
+        "intent": "company_achievement",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "achievement",
+            "entity": "ACHIEVEMENT"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "achievement of Google company"
+      },
+      {
+        "intent": "stupid",
+        "text": "Hey do u think I am stupid , crazy, idiot"
+      },
+      {
+        "intent": "stupid",
+        "text": "i am idiot, crazy do you think"
+      },
+      {
+        "intent": "stupid",
+        "text": "hey do you think i am stupid"
+      },
+      {
+        "intent": "stupid",
+        "text": "hey do you think i am stupid, crazy, idiot"
+      },
+      {
+        "intent": "stupid",
+        "text": "hey do you think i am stupid"
+      },
+      {
+        "intent": "stupid",
+        "text": "hey do you think i am stupid, crazy, idiot"
+      },
+      {
+        "intent": "stupid",
+        "text": "i am stupid do you think"
+      },
+      {
+        "intent": "stupid",
+        "text": "i am idiot, crazy do you think"
+      },
+      {
+        "intent": "stupid",
+        "text": "hey do you think i am stupid"
+      },
+      {
+        "intent": "stupid",
+        "text": "hey do you think i am stupid, crazy, idiot"
+      },
+      {
+        "intent": "interview_time",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "timings",
+            "entity": "TIME"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "tomorrow",
+            "entity": "DATE"
+          }
+        ],
+        "text": "What's the timings of my interview tomorrow"
+      },
+      {
+        "intent": "interview_time",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "reporting",
+            "entity": "SCHEDULE"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "timings",
+            "entity": "SCHEDULE"
+          }
+        ],
+        "text": "what is my reporting timings for interview"
+      },
+      {
+        "intent": "interview_time",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "timings",
+            "entity": "TIME"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "tomorrow",
+            "entity": "DATE"
+          }
+        ],
+        "text": "What's the timings of my interview tomorrow"
+      },
+      {
+        "intent": "interview_time",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "reporting",
+            "entity": "SCHEDULE"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "timings",
+            "entity": "SCHEDULE"
+          },
+          {
+            "start": 43,
+            "end": 48,
+            "value": "today",
+            "entity": "DATE"
+          }
+        ],
+        "text": "What is my reporting timings for interview today"
+      },
+      {
+        "intent": "interview_time",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "reporting",
+            "entity": "SCHEDULE"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "timings",
+            "entity": "SCHEDULE"
+          }
+        ],
+        "text": "What is my reporting timings for interview"
+      },
+      {
+        "intent": "interview_time",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "timings",
+            "entity": "TIME"
+          },
+          {
+            "start": 36,
+            "end": 44,
+            "value": "tomorrow",
+            "entity": "DATE"
+          }
+        ],
+        "text": "what is the timings of my interview tomorrow"
+      },
+      {
+        "intent": "interview_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "TIME",
+            "entity": "SCHEDULE"
+          },
+          {
+            "start": 21,
+            "end": 29,
+            "value": "tomorrow",
+            "entity": "DATE"
+          }
+        ],
+        "text": "TIME of my interview tomorrow"
+      },
+      {
+        "intent": "interview_time",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "reporting",
+            "entity": "SCHEDULE"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "TIME",
+            "entity": "SCHEDULE"
+          },
+          {
+            "start": 40,
+            "end": 45,
+            "value": "today",
+            "entity": "DATE"
+          }
+        ],
+        "text": "what is my reporting TIME for interview today"
+      },
+      {
+        "intent": "interview_time",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "TIME",
+            "entity": "SCHEDULE"
+          },
+          {
+            "start": 32,
+            "end": 40,
+            "value": "tomorrow",
+            "entity": "DATE"
+          }
+        ],
+        "text": "What's the TIME of my interview tomorrow"
+      },
+      {
+        "intent": "interview_time",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "reporting",
+            "entity": "SCHEDULE"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "timings",
+            "entity": "TIME"
+          }
+        ],
+        "text": "What is my reporting timings for interview"
+      },
+      {
+        "intent": "interview_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "reporting",
+            "entity": "SCHEDULE"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "time",
+            "entity": "TIME"
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "today",
+            "entity": "DATE"
+          }
+        ],
+        "text": "reporting time for interview today"
+      },
+      {
+        "intent": "interview_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "timings",
+            "entity": "TIME"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "tomorrow",
+            "entity": "DATE"
+          }
+        ],
+        "text": "timings for my interview tomorrow"
+      },
+      {
+        "intent": "helpful",
+        "text": "Dude why do u help me so much"
+      },
+      {
+        "intent": "helpful",
+        "text": "why do you care about me"
+      },
+      {
+        "intent": "helpful",
+        "text": "why u help so much"
+      },
+      {
+        "intent": "helpful",
+        "text": "Why you help so much"
+      },
+      {
+        "intent": "helpful",
+        "text": "dude why do you help me so much"
+      },
+      {
+        "intent": "helpful",
+        "text": "why do u help me so much dude"
+      },
+      {
+        "intent": "helpful",
+        "text": "why do you care about me"
+      },
+      {
+        "intent": "helpful",
+        "text": "why u help so much"
+      },
+      {
+        "intent": "helpful",
+        "text": "Why you help so much"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "date",
+            "entity": "DATE"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "last",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "What was the date of my last interview"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "history",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "history of my job interview"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "attended",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "interview i attended"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "attended",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "attended interview"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "date",
+            "entity": "DATE"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "last",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "date of my last interview"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": "COUNT"
+          },
+          {
+            "start": 27,
+            "end": 35,
+            "value": "attended",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "How many interviews have I attended"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "history",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "So what kind of history is my job interviews"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "date",
+            "entity": "DATE"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "last",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "what was the date of my last interview"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "how many interview",
+            "entity": "HISTORY"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "value": "attended",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "how many interview have i attended"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "history",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "so what kind of history is my job interview"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "history",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "history of my job interview"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "attended",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "interview i attended"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "attended",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "attended interview"
+      },
+      {
+        "intent": "interview_history",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "date",
+            "entity": "HISTORY"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "last",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "date of my last interview"
+      },
+      {
+        "intent": "aptitude_answer",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "answer",
+            "entity": "ANS"
+          },
+          {
+            "start": 30,
+            "end": 36,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What's the correct answer for Google"
+      },
+      {
+        "intent": "aptitude_answer",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "answer",
+            "entity": "ANS"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "aptitude",
+            "entity": "ANS"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "Amazon",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is the answer for aptitude question of Amazon company"
+      },
+      {
+        "intent": "aptitude_answer",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "aptitude",
+            "entity": "ANS"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "answer",
+            "entity": "ANS"
+          },
+          {
+            "start": 40,
+            "end": 49,
+            "value": "Microsoft",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is the correct aptitude answer for Microsoft company"
+      },
+      {
+        "intent": "aptitude_answer",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "answer",
+            "entity": "ANS"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "aptitude",
+            "entity": "ANS"
+          },
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Flipkart",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What is the answer for aptitude question Flipkart"
+      },
+      {
+        "intent": "aptitude_answer",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "answer",
+            "entity": "ANS"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "LinkedIn",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What's the correct answer for LinkedIn"
+      },
+      {
+        "intent": "aptitude_answer",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "answer",
+            "entity": "ANS"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "aptitude",
+            "entity": "ANS"
+          },
+          {
+            "start": 44,
+            "end": 46,
+            "value": "EY",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is the answer for aptitude question of EY company"
+      },
+      {
+        "intent": "aptitude_answer",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "answer",
+            "entity": "ANS"
+          },
+          {
+            "start": 31,
+            "end": 47,
+            "value": "Yellow Messenger",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is the correct answer for Yellow Messenger company"
+      },
+      {
+        "intent": "company_vacancies",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "number",
+            "entity": "COUNT"
+          },
+          {
+            "start": 40,
+            "end": 42,
+            "value": "EY",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is the number of jobs avalilabe in EY"
+      },
+      {
+        "intent": "company_vacancies",
+        "text": "How [many][COUNT] vacancies available"
+      },
+      {
+        "intent": "company_vacancies",
+        "entities": [
+          {
+            "start": 45,
+            "end": 51,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how [many][COUNT] vacancies are available in Google company"
+      },
+      {
+        "intent": "company_vacancies",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "number",
+            "entity": "COUNT"
+          },
+          {
+            "start": 40,
+            "end": 46,
+            "value": "Amazon",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What is the number of jobs available in Amazon"
+      },
+      {
+        "intent": "company_vacancies",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "number",
+            "entity": "COUNT"
+          },
+          {
+            "start": 40,
+            "end": 48,
+            "value": "Flipkart",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is the number of jobs avalilabe in Flipkart"
+      },
+      {
+        "intent": "company_vacancies",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": "COUNT"
+          }
+        ],
+        "text": "How many vacancies available"
+      },
+      {
+        "intent": "company_vacancies",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "many",
+            "entity": "COUNT"
+          },
+          {
+            "start": 36,
+            "end": 44,
+            "value": "Snapdeal",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how many vacancies are available in Snapdeal company"
+      },
+      {
+        "intent": "company_job_time",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "day",
+            "entity": "TIME"
+          },
+          {
+            "start": 10,
+            "end": 15,
+            "value": "shift",
+            "entity": "TIME"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "night",
+            "entity": "TIME"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "shift",
+            "entity": "TIME"
+          },
+          {
+            "start": 34,
+            "end": 36,
+            "value": "EY",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "Is it day shift or night shift of EY?"
+      },
+      {
+        "intent": "company_job_time",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "timing",
+            "entity": "TIME"
+          },
+          {
+            "start": 29,
+            "end": 37,
+            "value": "LinkedIn",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is the timing of job in LinkedIn"
+      },
+      {
+        "intent": "company_job_time",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "long",
+            "entity": "TIME"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "Snapdeal",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how long should i work everyday in Snapdeal"
+      },
+      {
+        "intent": "company_job_time",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "day",
+            "entity": "TIME"
+          },
+          {
+            "start": 10,
+            "end": 15,
+            "value": "shift",
+            "entity": "TIME"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "night",
+            "entity": "TIME"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "shift",
+            "entity": "TIME"
+          },
+          {
+            "start": 34,
+            "end": 41,
+            "value": "YouTube",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "is it day shift or night shift of YouTube"
+      },
+      {
+        "intent": "company_job_time",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "timings",
+            "entity": "TIME"
+          },
+          {
+            "start": 29,
+            "end": 37,
+            "value": "Motorola",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What's the timings of job in Motorola"
+      },
+      {
+        "intent": "company_job_time",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "long",
+            "entity": "TIME"
+          },
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Samsung",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "How long should I work everyday for Samsung"
+      },
+      {
+        "intent": "company_job_time",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "day",
+            "entity": "TIME"
+          },
+          {
+            "start": 10,
+            "end": 15,
+            "value": "shift",
+            "entity": "TIME"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "night",
+            "entity": "TIME"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "shift",
+            "entity": "TIME"
+          },
+          {
+            "start": 34,
+            "end": 41,
+            "value": "OnePlus",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "Is it day shift or night shift in OnePlus?"
+      },
+      {
+        "intent": "company_job_time",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "timing",
+            "entity": "TIME"
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": "Arya.ai",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is the timing of job for Arya.ai"
+      },
+      {
+        "intent": "company_job_time",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "long",
+            "entity": "TIME"
+          },
+          {
+            "start": 35,
+            "end": 42,
+            "value": "Bewkoof",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "how long should i work everyday in Bewkoof"
+      },
+      {
+        "intent": "company_job_time",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "day",
+            "entity": "TIME"
+          },
+          {
+            "start": 10,
+            "end": 15,
+            "value": "shift",
+            "entity": "TIME"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "night",
+            "entity": "TIME"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "shift",
+            "entity": "TIME"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "Delloite",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "is it day shift or night shift for Delloite"
+      },
+      {
+        "intent": "interview_success",
+        "text": "what is the bes way to impress hr"
+      },
+      {
+        "intent": "interview_success",
+        "text": "what is the method to succeed in interview"
+      },
+      {
+        "intent": "interview_success",
+        "text": "what is the secret to succeed at interview"
+      },
+      {
+        "intent": "interview_success",
+        "text": "secret to succeed any interview"
+      },
+      {
+        "intent": "interview_success",
+        "text": "secret to succeed interview"
+      },
+      {
+        "intent": "interview_success",
+        "text": "method to succeed interview"
+      },
+      {
+        "intent": "interview_success",
+        "text": "What is the best way to impress HR"
+      },
+      {
+        "intent": "interview_success",
+        "text": "What is the method to succeed in interview"
+      },
+      {
+        "intent": "interview_success",
+        "text": "What is the secret to succeed at interview"
+      },
+      {
+        "intent": "interview_success",
+        "text": "what is the bes way to impress hr"
+      },
+      {
+        "intent": "interview_success",
+        "text": "what is the method to succeed in interview"
+      },
+      {
+        "intent": "interview_success",
+        "text": "what is the secret to succeed at interview"
+      },
+      {
+        "intent": "interview_success",
+        "text": "secret to succeed any interview"
+      },
+      {
+        "intent": "interview_success",
+        "text": "secret to succeed interview"
+      },
+      {
+        "intent": "interview_success",
+        "text": "method to succeed interview"
+      },
+      {
+        "intent": "holidays",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "holidays",
+            "entity": "HOLIDAY"
+          }
+        ],
+        "text": "What are the holidays available"
+      },
+      {
+        "intent": "holidays",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "working",
+            "entity": "HOLIDAY"
+          },
+          {
+            "start": 35,
+            "end": 39,
+            "value": "year",
+            "entity": "DATE"
+          }
+        ],
+        "text": "What is the total working days per year"
+      },
+      {
+        "intent": "holidays",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "holidays",
+            "entity": "HOLIDAY"
+          }
+        ],
+        "text": "what are the holidays available"
+      },
+      {
+        "intent": "holidays",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "working",
+            "entity": "HOLIDAY"
+          },
+          {
+            "start": 35,
+            "end": 39,
+            "value": "year",
+            "entity": "DATE"
+          }
+        ],
+        "text": "what is the total working days per year"
+      },
+      {
+        "intent": "holidays",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "working",
+            "entity": "HOLIDAY"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "year",
+            "entity": "DATE"
+          }
+        ],
+        "text": "total working days per year"
+      },
+      {
+        "intent": "LMN",
+        "text": "what is the work of LMN employees"
+      },
+      {
+        "intent": "LMN",
+        "text": "what is the responsibilities of LMN employee"
+      },
+      {
+        "intent": "LMN",
+        "text": "work of LMN employee"
+      },
+      {
+        "intent": "LMN",
+        "text": "responsibility of LMN employee"
+      },
+      {
+        "intent": "LMN",
+        "text": "What is the work of LMN employees"
+      },
+      {
+        "intent": "LMN",
+        "text": "What is the responsibilities of LMN employee"
+      },
+      {
+        "intent": "LMN",
+        "text": "what is the work of LMN employees"
+      },
+      {
+        "intent": "LMN",
+        "text": "what is the responsibilities of LMN employee"
+      },
+      {
+        "intent": "LMN",
+        "text": "work of LMN employee"
+      },
+      {
+        "intent": "LMN",
+        "text": "responsibility of LMN employee"
+      },
+      {
+        "intent": "popular_company",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Bewkoof",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what make Bewkoof popular among young generation"
+      },
+      {
+        "intent": "popular_company",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "why is Google is more disciplined"
+      },
+      {
+        "intent": "popular_company",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Flipkart",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What makes Flipkart popular among young generation"
+      },
+      {
+        "intent": "popular_company",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "YouTube",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "Why is YouTube is more disciplined"
+      },
+      {
+        "intent": "popular_company",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "EY",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what make EY popular among young generation"
+      },
+      {
+        "intent": "popular_company",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Embibe",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "why is Embibe is more disciplined"
+      },
+      {
+        "intent": "popular_company",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Snapdeal",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "popular Snapdeal company"
+      },
+      {
+        "intent": "popular_company",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "Delloite",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "more discplined Delloite company"
+      },
+      {
+        "intent": "job_match",
+        "text": "Does this job requirements match my knowledge"
+      },
+      {
+        "intent": "job_match",
+        "text": "Is their a way to fit in other vacancy available"
+      },
+      {
+        "intent": "job_match",
+        "text": "does this job requirements macth my knowledge"
+      },
+      {
+        "intent": "job_match",
+        "text": "is their a way to fit in other vacancy available"
+      },
+      {
+        "intent": "job_match",
+        "text": "Does this job requirements match my knowledge"
+      },
+      {
+        "intent": "job_match",
+        "text": "Is their a way to fit in other vacancy available"
+      },
+      {
+        "intent": "job_match",
+        "text": "does this job requirements macth my knowledge"
+      },
+      {
+        "intent": "job_match",
+        "text": "job matching my requirements"
+      },
+      {
+        "intent": "job_match",
+        "text": "job matching my knowledge"
+      },
+      {
+        "intent": "charge",
+        "text": "who is the in charge of interview"
+      },
+      {
+        "intent": "charge",
+        "text": "who will be taking my interview"
+      },
+      {
+        "intent": "charge",
+        "text": "interview in charge"
+      },
+      {
+        "intent": "charge",
+        "text": "Who is the in charge of interview"
+      },
+      {
+        "intent": "charge",
+        "text": "who is the in charge of interview"
+      },
+      {
+        "intent": "charge",
+        "text": "who will be taking my interview"
+      },
+      {
+        "intent": "charge",
+        "text": "interview in charge"
+      },
+      {
+        "intent": "charge",
+        "text": "Who is the in charge of interview"
+      },
+      {
+        "intent": "company_motto",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "interests",
+            "entity": "MOTTO"
+          },
+          {
+            "start": 40,
+            "end": 42,
+            "value": "EY",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What are the basic interests of company EY"
+      },
+      {
+        "intent": "company_motto",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What matters the most in the Google company"
+      },
+      {
+        "intent": "company_motto",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "interests",
+            "entity": "MOTTO"
+          },
+          {
+            "start": 40,
+            "end": 48,
+            "value": "Flipkart",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what are the basic interests of company Flipkart"
+      },
+      {
+        "intent": "company_motto",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "motto",
+            "entity": "MOTTO"
+          },
+          {
+            "start": 29,
+            "end": 37,
+            "value": "Snapdeal",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is thr motto of company Snapdeal"
+      },
+      {
+        "intent": "company_motto",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "Motorola",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what matters the most in the Motorola company"
+      },
+      {
+        "intent": "company_motto",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "motto",
+            "entity": "MOTTO"
+          },
+          {
+            "start": 29,
+            "end": 37,
+            "value": "Delloite",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What is the motto of company Delloite"
+      },
+      {
+        "intent": "company_motto",
+        "entities": [
+          {
+            "start": 29,
+            "end": 38,
+            "value": "Delhivery",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "What matters the most in the Delhivery company"
+      },
+      {
+        "intent": "company_motto",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "interests",
+            "entity": "MOTTO"
+          },
+          {
+            "start": 40,
+            "end": 48,
+            "value": "Analysed",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what are the basic interests of company Analysed"
+      },
+      {
+        "intent": "company_motto",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "motto",
+            "entity": "MOTTO"
+          },
+          {
+            "start": 29,
+            "end": 37,
+            "value": "LinkedIn",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what is thr motto of company LinkedIn"
+      },
+      {
+        "intent": "company_motto",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "YouTube",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what matters the most in the YouTube company"
+      },
+      {
+        "intent": "company_motto",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "Ferari",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "motto of Ferari company"
+      },
+      {
+        "intent": "company_instructions",
+        "entities": [
+          {
+            "start": 68,
+            "end": 70,
+            "value": "EY",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "what are the instructions provided before entering the workplace IN EY"
+      },
+      {
+        "intent": "company_instructions",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "instructions provided for a workplace in Google"
+      },
+      {
+        "intent": "job_description_applied",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "Snapdeal",
+            "entity": "COMPANY"
+          },
+          {
+            "start": 42,
+            "end": 49,
+            "value": "applied",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "What is the job description at Snapdeal I applied before"
+      },
+      {
+        "intent": "job_description_applied",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "YouTube",
+            "entity": "COMPANY"
+          },
+          {
+            "start": 41,
+            "end": 48,
+            "value": "applied",
+            "entity": "HISTORY"
+          }
+        ],
+        "text": "what is the job description at YouTube i applied before"
+      },
+      {
+        "intent": "job_description_applied",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "applied",
+            "entity": "HISTORY"
+          },
+          {
+            "start": 37,
+            "end": 45,
+            "value": "LinkedIn",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "previous job applied descriptions IN LinkedIn"
+      },
+      {
+        "intent": "job_description_applied",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "applied",
+            "entity": "HISTORY"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "history",
+            "entity": "HISTORY"
+          },
+          {
+            "start": 45,
+            "end": 51,
+            "value": "Google",
+            "entity": "COMPANY"
+          }
+        ],
+        "text": "previous job applied history descriptions in Google"
+      },
+      {
+        "intent": "user_ideal",
+        "text": "Hey how long should I be ideal"
+      },
+      {
+        "intent": "user_ideal",
+        "text": "How much time is required to find suitable job"
+      },
+      {
+        "intent": "user_ideal",
+        "text": "hey how long should i be ideal"
+      },
+      {
+        "intent": "user_ideal",
+        "text": "how much time is required to find a suitable job"
+      },
+      {
+        "intent": "user_ideal",
+        "text": "time required to fine suitable job"
+      },
+      {
+        "intent": "user_ideal",
+        "text": "How much time is required to find suitable job"
+      },
+      {
+        "intent": "user_ideal",
+        "text": "hey how long should i be ideal"
+      },
+      {
+        "intent": "user_ideal",
+        "text": "how much time is required to find a suitable job"
+      },
+      {
+        "intent": "user_ideal",
+        "text": "time required to fine suitable job"
+      },
+      {
+        "intent": "hate",
+        "text": "Hey I hate u"
+      },
+      {
+        "intent": "hate",
+        "text": "hey i hate you"
+      },
+      {
+        "intent": "hate",
+        "text": "hey i hate u"
+      },
+      {
+        "intent": "hate",
+        "text": "hate you"
+      },
+      {
+        "intent": "hate",
+        "text": "hate u"
+      },
+      {
+        "intent": "affirm",
+        "text": "y"
+      },
+      {
+        "intent": "affirm",
+        "text": "Y"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "for sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitely"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes, it did."
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "never"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "deny",
+        "text": "not really"
+      },
+      {
+        "intent": "deny",
+        "text": "n"
+      },
+      {
+        "intent": "deny",
+        "text": "N"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thanks",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thanks",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
